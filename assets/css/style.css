@@ -8,10 +8,8 @@
 
 body {
   background-image: url("../images/spiration-light.png");
-  background-repeat: repeat-y;
-  background-repeat: repeat-x;
-  background-size: 900px;
-  min-width: 960px;
+  background-repeat: repeat;
+  background-size: contain;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 
 }
@@ -20,7 +18,6 @@ body {
   background-color: #ffffff;
   border: 2px solid #cccccc;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  min-width: 960;
   overflow: hidden;
   padding: 0;
 }
@@ -30,7 +27,6 @@ h1 {
   color: #ffffff;
   float: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  min-width: 960;
   height: auto;
   position: relative;
   left: 150px;
@@ -45,7 +41,6 @@ nav ul {
   top: 10px;
   left: 725px;
   text-align: center;
-  background-color: red;
 }
 
 nav ul li {
@@ -109,16 +104,17 @@ h2, h3 {
 }
 
 aside ul {
-  float: left;
+
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  display: inline-block;
   text-align: center;
 }
 
 aside ul li {
   display: inline-block;
 }
-
-li a {
+ 
+li img {
   color: #777777;
   text-decoration: none;
 }
@@ -161,15 +157,16 @@ li a {
 
 .divSquare {
   color:  #ffffff;
-  display: inline-block;
+  float: left;
+  /* display: inline-block; */
   text-align: center;
-  width: 274px;
+  width: 270px;
   height: 205px;
   margin: 20px 20px 30px 30px;
 }
  
 .divSquare img {
-  width: 274px;
+  width: 270px;
   height: 205px;
 }
 
@@ -178,5 +175,7 @@ li a {
   height: 60px;
   position: relative;
   bottom: 70px;
-  
+  padding: 7.5%;
 }
+
+
