@@ -2,45 +2,56 @@
 <html lang="us-en">
   <head>
     <meta charset="utf-8">
-    <link href="assets/css/style.css" rel="stylesheet" href="assets/css/reset.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css"> 
     <title>About Me</title>
   </head>
+
   <body>
-    <header class="main_header">
-      <h1>T.J. Hooker</h1>
+    
+    <header class="main-header">
+      <h1 class="name-box">T.J. Hooker</h1>
+      
       <nav>
         <ul>
-          <li><a href="index.html">About |</a></li>
-          <li><a href="portfolio.html">Portfolio |</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="one"><a href="index.html">About</a></li>
+          <div class="vertical-line"></div>
+          <li class="two"><a href="portfolio.html">Portfolio</a></li>
+          <div class="vertical-line"></div>
+          <li class="three"><a href="contact.html">Contact</a></li>
+          <hr class="hoverbar" />
         </ul>
       </nav>
-      <div class="clear"></div>
     </header>
 
-    <div class="main-content">
-      <section class="bio">
-        <h2>About Me</h2>
+    <div class="container">
+      <div class="main-content">
+        <section class="bio">
+          <h2>About Me<hr></h2>
 
-          <img id="bio-image" src="https://placehold.it/200x200" alt="TJ Hooker">
+            <img id="bio-image" src="assets/images/headshot.jpg" width: 200px alt="TJ Hooker">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus ut, rutrum luctus orci. Cras poritor imperdiet nunc, at ultricies tellus laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum, tristique sit amet orci vel, viverra egestas ligula.</p><br>
+            <p>I am an attorney turned web developer. I spent over four years practicing law before realizing that I am a "builder" and deciding that I needed to change careers to reach by full potential. My interest in programming began several years ago and I now have the opportunity to act upon my interest.</pr>
+              
+            <p>As an attorney I represented business clients, as well as individuals, in a wide variety of legal matters including, but not limited to: drafting contracts, business formations, real estate disputes, estate planning, litigation, and litigation defense. I have strong public speaking and facilitating skills and the ability to manage multiple complex projects. In addition, I an expert researcher and a fast learner, with the ability to become competent in various subject matters and manage large volumes of data.</p>
 
-          <p> <!--id="bio-paragraph">-->Curabitur vehicula tellus neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.</p>
-      </section>
+            <p>I live in Wake Forest with an incredibly supportive wife. We share our home with our boxer, Lady.While I am not coding or practicing law, I enjoy spending time outside. Most of this time is spent doing yard work, but I do have the opportunity to mountain bike and trail run every now and then. Finally, (but most importantly) I am a diehard Texas Longhorn and Dallas Cowboys fan. </p>
+        </section>
+      </div>
+
+      <aside class="connect-right">
+        <h3>Connect with Me<hr></h3>
+        <ul>
+          <li><a href="https://github.com/tyrelhooker"target="_blank"><img src="assets/images/github.png" width="50px" height="50px" alt="Go to GitHub!"></a></li>
+          <li><a href="https://www.linkedin.com/in/t-j-hooker-bb973638/" target="_blank"><img src="assets/images/linkedin.png" width="50px" height="50px"alt="Go to LinkedIn!"></a></li>
+          <li><a href="https://stackoverflow.com/users/9263462/tj-hooker?tab=profile" target="_blank"><img src="assets/images/stack_overflow.png" width="50px" height="50px" alt="Go to Stack Overflow!"></a></li>
+        </ul>
+      </aside>
+      <div class="clear"></div>
     </div>
 
-    <aside class="connect-right">
-      <h3>Connect with Me</h3>
-      <ul>
-        <li><a href="https://github.com/tyrelhooker"target="_blank"><img src="assets/images/github.png" width="50px" height="50px" alt="Go to GitHub!"></a></li>
-        <li><a href="https://www.linkedin.com/in/t-j-hooker-bb973638/" target="_blank"><img src="assets/images/linkedin.png" width="50px" height="50px"alt="Go to LinkedIn!"></a></li>
-        <li><a href="https://stackoverflow.com/users/9263462/tj-hooker?tab=profile" target="_blank"><img src="assets/images/stack_overflow.png" width="50px" height="50px" alt="Go to Stack Overflow!"></a></li>
-      </ul>
-    </aside>
-    
-
     <div class="clear"></div>
+    <div class="push"></div>
     <footer>
       Copyright © 2018 T.J. Hooker
     </footer>

@@ -1,46 +1,47 @@
-
-/* Use css reset in lieu of this* { */
-  * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-image: url("../images/spiration-light.png");
+  background-image: url("../images/ravenna.png");
   background-repeat: repeat;
-  background-size: contain;
+  background-size: 150px contain;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-
+  letter-spacing: 1px;
+  height: 100%;
+  margin: 0;
 }
 
-.main_header {
+.main-header {
   background-color: #ffffff;
   border: 2px solid #cccccc;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  overflow: hidden;
-  padding: 0;
+  width: 100%;
+  min-width: 800px;
+  height: 80px;
+  position: relative;
 }
 
-h1 {
+.name-box {
   background-color: #4aaaa5;
   color: #ffffff;
-  float: left;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  height: auto;
-  position: relative;
+  width: 270px;
+  height: 100%;
+  position: absolute;
   left: 150px;
-  padding: 10px;
+  padding: 0px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
-nav ul {
+nav {
+  width: 270px;
+  height:100%;
+  position: absolute;
+  right: 100px;
+  top: 0;
+  white-space: nowrap;
   text-align: center;
-  float: left;
+  line-height: 80px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  position: relative;
-  top: 10px;
-  left: 725px;
-  text-align: center;
 }
 
 nav ul li {
@@ -49,58 +50,87 @@ nav ul li {
 
 li a {
   text-decoration: none;
-  color: #777777;
+}
+
+.vertical-line {
+  height: 30px;
+  width: 1px;
+  background-color: #dddddd;;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+  line-height: 10px;
+  top: 10px;
+} 
+
+/*.one:hover ~ .hoverbar {
+  margin-left: 27px;
+}
+
+.two:hover ~ .hoverbar {
+  margin-left: 100px;
+}
+
+.three:hover ~ .hoverbar {
+  margin-left: 180px;
+}
+
+.hoverbar {
+  height: 2px;
+  width: 55px;
+  margin-bottom: 0px;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+} */
+
+.container {
+  max-width: 960px;
+  min-width: 650px;
+  min-height: 100%;
+  float: left;
+  margin-left: 150px;
+  margin-bottom: 70px;
 }
 
 .main-content {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   float:left;
-  margin: 20px 20px 20px 0;
+  margin: 20px 10px 20px 0px;
   width: 650px;
-  position: relative;
-  left: 150px;
 } 
 
 h2, h3 {
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  padding: 30px;
+  padding: 20px;
+  font-size: 22px;
 }
 
-
-
-
-/* #bio { 
-  overflow: hidden;
-  width: 650px;
-  float: left;
-  border: 1px solid blue;
-} */
 
 #bio-image {
-  width: 200px;
-  height: 200px;
+  width: 253px;
+  height: 219px;
   float: left;
+  margin: 0px 20px 0px 20px;
 }
 
-/* #bio-paragraph {
-  width: 450px;
-  float: left;
-  text-align: left;
-  border: 1px solid green;
-}*/
+p {
+  margin: 0px 20px 10px 20px;
+  line-height: 20px;
+  text-align: justify;
+}
+
 
 .connect-right {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   float: left;
-  margin: 20px 0 20px 20px;
-  position: relative;
-  left: 150px;
+  margin: 20px 0px 20px 10px;
   text-align: center;
   width: 270px;
-  
 }
 
 aside ul {
@@ -119,50 +149,42 @@ li img {
   text-decoration: none;
 }
 
+
 /* Clears the float of main-content and connect-right */
 .clear {
   clear: both;
   display: block;
 }
 
+
  footer {
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
     color: #ffffff;
     text-align: center;
+    line-height: 70px;
+    width: 100%;
+    min-width: 800px;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    
  }
 
 
-
-/* ul {
-  list-style: none;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-
-} */
-
-
-/* ----------------Portfolio.html content ----------------------*/
-/*  
-.portfolio {
-  text-align: center;
-} */
+/* -------------------PORTFOLIO html CONTENT----------------------------------*/
 
 
 .divSquare {
   color:  #ffffff;
-  float: left;
-  /* display: inline-block; */
+  display: inline-block;
   text-align: center;
   width: 270px;
   height: 205px;
   margin: 20px 20px 30px 30px;
+  
 }
  
 .divSquare img {
@@ -175,7 +197,38 @@ li a {
   height: 60px;
   position: relative;
   bottom: 70px;
-  padding: 7.5%;
+  padding: 0px;
+  z-index: 2;
+  line-height: 60px;
+  margin: 0px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
 }
 
 
+
+/*------------------CONTACT html CONTENT ------------------------------------ */
+
+
+.input-container {
+  margin: 0 20px 20px 20px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  width: 610px;
+  line-height: 20px;
+}
+
+textarea {
+  border: 1px solid #cccccc;
+  width: 610px;
+  height: 150px;
+}
+
+.form-button {
+  width: 50px;
+  color:  #ffffff;
+  background-color: #4aaaa5; 
+}
