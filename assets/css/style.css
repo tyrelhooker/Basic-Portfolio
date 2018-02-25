@@ -114,7 +114,12 @@ h2, h3 {
   width: 253px;
   height: 219px;
   float: left;
-  margin: 0px 20px 0px 20px;
+  margin: 0px 20px 5px 20px;
+}
+
+#bio-image:hover {
+    outline: 3px solid gray;
+    outline-offset: 7px;
 }
 
 p {
@@ -122,6 +127,7 @@ p {
   line-height: 20px;
   text-align: justify;
 }
+
 
 
 .connect-right {
@@ -147,6 +153,12 @@ aside ul li {
 li img {
   color: #777777;
   text-decoration: none;
+  margin: 0px 10px 10px 10px;
+}
+
+li img:hover {
+    outline: 3px solid gray;
+    outline-offset: 5px;
 }
 
 
