@@ -1,3 +1,5 @@
+/* The following is the css style page for Basic-Portfolio, which includes the index.html, porfolio.html, contact.html, and comingsoon.html */
+
 body {
   background-image: url("../images/ravenna.png");
   background-repeat: repeat;
@@ -8,6 +10,7 @@ body {
   margin: 0;
 }
 
+/* The main-header through hr and p through img li hover controls the content of all four html pages referred to above */
 .main-header {
   background-color: #ffffff;
   border: 2px solid #cccccc;
@@ -52,6 +55,12 @@ li a {
   text-decoration: none;
 }
 
+/* Creates a burnt orange bar under the nav links in the main-heading */
+nav li a:hover {
+  border-bottom: 3px solid #cc5500;
+}
+
+/* Creates the vertical lines in-between the nav items in the main header */
 .vertical-line {
   height: 30px;
   width: 2px;
@@ -63,27 +72,6 @@ li a {
   line-height: 10px;
   top: 10px;
 } 
-
-/*.one:hover ~ .hoverbar {
-  margin-left: 27px;
-}
-
-.two:hover ~ .hoverbar {
-  margin-left: 100px;
-}
-
-.three:hover ~ .hoverbar {
-  margin-left: 180px;
-}
-
-.hoverbar {
-  height: 2px;
-  width: 55px;
-  margin-bottom: 0px;
-  background: tomato;
-  border: none;
-  transition: .3s ease-in-out;
-} */
 
 .container {
   max-width: 960px;
@@ -110,6 +98,7 @@ h2, h3 {
   margin: 0px;
 }
 
+/* Creates the horizontal lines on the main content and connect right sections just below the headers */
 hr {
   margin: 0px 20px 20px 20px;
 }
@@ -121,9 +110,10 @@ hr {
   margin: 0px 20px 5px 20px;
 }
 
+/* Creats a frame around the main-content image when the mouse hovers over it */
 #bio-image:hover {
-    outline: 3px solid gray;
-    outline-offset: 7px;
+  outline: 3px solid gray;
+  outline-offset: 7px;
 }
 
 p {
@@ -131,8 +121,6 @@ p {
   line-height: 20px;
   text-align: justify;
 }
-
-
 
 .connect-right {
   background-color: #ffffff;
@@ -144,7 +132,6 @@ p {
 }
 
 aside ul {
-
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   display: inline-block;
   text-align: center;
@@ -162,10 +149,9 @@ li img {
 }
 
 li img:hover {
-    outline: 3px solid gray;
-    outline-offset: 5px;
+  outline: 3px solid gray;
+  outline-offset: 5px;
 }
-
 
 /* Clears the float of main-content and connect-right */
 .clear {
@@ -173,27 +159,26 @@ li img:hover {
   display: block;
 }
 
-
+/* Creates a sticky footer that works in conjunction with the .container above. The footer should stay at the bottom of the window at all times */
  footer {
-    background-color: #666666;
-    border-top: 10px solid #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    line-height: 70px;
-    width: 100%;
-    min-width: 800px;
-    height: 70px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 3;
-    
+  background-color: #666666;
+  border-top: 10px solid #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  line-height: 70px;
+  width: 100%;
+  min-width: 800px;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
  }
 
 
 /* -------------------PORTFOLIO html CONTENT-------------------------*/
 
-
+/* These format the clickies in the Portfolio page, which are a coming soon attraction */
 .divSquare {
   color:  #ffffff;
   display: inline-block;
@@ -201,7 +186,6 @@ li img:hover {
   width: 270px;
   height: 205px;
   margin: 20px 20px 30px 30px;
-  
 }
  
 .divSquare img {
@@ -209,6 +193,7 @@ li img:hover {
   height: 205px;
 }
 
+/* Controls the banner with text across the placeholder images on the Portfolio page */
 .banner {
   background-color: #4aaaa5;
   height: 60px;
@@ -227,7 +212,7 @@ li img:hover {
 
 /*------------------CONTACT html CONTENT --------------------------- */
 
-
+/* These format the input form to populate email client */
 .input-container {
   margin: 0 20px 20px 20px;
 }
@@ -245,7 +230,8 @@ textarea {
 }
 
 .form-button {
-  width: 50px;
+  width: 100px;
   color:  #ffffff;
-  background-color: #4aaaa5; 
+  background-color: #4aaaa5;
+  border-radius: 15px; 
 }

@@ -8,10 +8,10 @@
   </head>
 
   <body>
-    
+
     <header class="main-header">
       <h1 class="name-box">T.J. Hooker</h1>
-      
+      <!-- Nav should shrink to certain stopping point but heading continues as user scroll to the right -->
       <nav>
         <ul>
           <li><a href="index.html">About</a></li>
@@ -23,11 +23,13 @@
       </nav>
     </header>
 
+<!-- Contains all of the main content and aside to address floating issues -->
     <div class="container">
       <div class="main-content">
+        <!-- Bio contains personal information and should link to various pictures within the bio section -->
         <section class="bio">
           <h2>About Me</h2><hr>
-
+            <!-- links to less serious pic of myself with a rather large Pongo -->
             <a href="assets/images/alt-tj.jpg" target=_blank><img id="bio-image" src="assets/images/headshot.jpg" alt="TJ Hooker"></a>
 
             <p>I am an attorney turned web developer. I spent over four years practicing law before realizing that I am a "builder" and deciding that I needed to change careers to reach by full potential. My interest in web development began several years ago while I was taking an introductory course to programming. UNC's coding bootcamp is providing me the structure to expand upon my basic programming foundation and become a full-stack web developer.</p>
@@ -35,10 +37,9 @@
             <p>As a practicing attorney I represented numerous business clients, as well as individuals, in a wide variety of legal matters including, but not limited to: drafting contracts, business formations, real estate disputes, estate planning, litigation, and litigation defense. I have strong public speaking and facilitating skills and the ability to manage multiple complex projects. In addition, I am an expert researcher and a fast learner, with the ability to become competent in various subject matters and manage large volumes of data.</p>
 
             <p>I live in Wake Forest with my incredibly supportive <a href="assets/images/wife.jpg">wife</a> and our lovely boxer, <a href="assets/images/lady.jpg">Lady</a>. When I am not coding or practicing law, I enjoy spending time outside. Most of this time is spent doing <a href="assets/images/yardwork.jpg">yard work</a>, but I do have the opportunity to mountain bike and trail run every now and then. Finally, (but most importantly) I am a diehard <a href="assets/images/hookem.jpg">Texas Longhorn</a> and Dallas Cowboys fan. </p>
-  
         </section>
       </div>
-
+      <!-- Contains all of the links to my profiles on select social sites -->
       <aside class="connect-right">
         <h3>Connect with Me</h3><hr>
         <ul>
@@ -47,11 +48,12 @@
           <li><a href="https://stackoverflow.com/users/9263462/tj-hooker?tab=profile" target="_blank"><img src="assets/images/stack_overflow.png" width="50" height="50" alt="Go to Stack Overflow!"></a></li>
         </ul>
       </aside>
+      <!-- Clears the float w/n the container so the container box wraps around all of the content -->
       <div class="clear"></div>
     </div>
-
+    <!-- Probably unecessary, but the footer kept floating -->
     <div class="clear"></div>
- 
+
     <footer>
       Copyright © 2018 T.J. Hooker
     </footer>
