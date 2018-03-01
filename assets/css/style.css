@@ -72,7 +72,7 @@ nav li a:hover {
   border-radius: 3px;
   line-height: 10px;
   top: 10px;
-} 
+}
 
 .container {
   max-width: 960px;
@@ -89,7 +89,7 @@ nav li a:hover {
   float:left;
   margin: 20px 10px 20px 0px;
   width: 650px;
-} 
+}
 
 h2, h3 {
   color: #4aaaa5;
@@ -142,7 +142,7 @@ aside ul {
 aside ul li {
   display: inline-block;
 }
- 
+
 li img {
   color: #777777;
   text-decoration: none;
@@ -193,7 +193,7 @@ li img:hover {
   height: 205px;
   margin: 20px 20px 30px 30px;
 }
- 
+
 .divSquare img {
   width: 270px;
   height: 205px;
@@ -239,5 +239,5 @@ textarea {
   width: 100px;
   color:  #ffffff;
   background-color: #4aaaa5;
-  border-radius: 15px; 
+  border-radius: 15px;
 }
